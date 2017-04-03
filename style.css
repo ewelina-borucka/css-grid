@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
   color: #444;
   font-family: "Lato", sans-serif;
+  font-weight: 300;
   font-size: 15px;
   margin: 0;
 }
@@ -15,7 +16,7 @@ body {
 a,
 ul,
 li {
-  margin-left: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -35,4 +36,29 @@ li {
 
 img {
   max-width: 200px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  font-size: 1em;
+  margin: 0;
+
+  background-color: #27ae60;
+  color: #dfdfdf ;
+  padding: .5rem 1rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+/* // =============================================================================
+// BASIC STYLING
+// ============================================================================= */
+
+.A,
+.B,
+.C,
+.D {
+  border: 1px solid red;
 }
