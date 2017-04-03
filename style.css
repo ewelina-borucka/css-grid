@@ -70,8 +70,13 @@ button {
   letter-spacing: 0.06rem;
 }
 
+.wrapper {
+  margin: auto;
+  max-width: 80%;
+}
+
 .all {
-  margin: 5rem;
+  margin: 1rem;
   padding: 1rem;
   border: 1px solid #888;
 }
